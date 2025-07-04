@@ -1,0 +1,68 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="q7ShiJGQbrmditJaLA6e">
+    <mxGraphModel dx="1097" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NV54QwJdPiiaCACP-lNe-1" value="MABENKELE SYSTEM&lt;div&gt;(Process 0)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-2" value="VENDOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-3" value="CLOUD SERVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-4" value="ADMIN PANEL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NV54QwJdPiiaCACP-lNe-2" target="NV54QwJdPiiaCACP-lNe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="150" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-6" value="product/Sales" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NV54QwJdPiiaCACP-lNe-1" target="NV54QwJdPiiaCACP-lNe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="560" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-8" value="updated vendor products/sales" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NV54QwJdPiiaCACP-lNe-1" target="NV54QwJdPiiaCACP-lNe-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="290" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="270" />
+              <mxPoint x="155" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-11" value="reports, feedback" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.408;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NV54QwJdPiiaCACP-lNe-3" target="NV54QwJdPiiaCACP-lNe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="310" />
+              <mxPoint x="690" y="310" />
+              <mxPoint x="560" y="310" />
+              <mxPoint x="400" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NV54QwJdPiiaCACP-lNe-13" value="synced vendor products/sales information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

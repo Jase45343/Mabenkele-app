@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Level 1 DFD" id="level1dfd">
+    <mxGraphModel dx="1097" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vendor" value="VENDOR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="30" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="ADMIN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="30" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend" value="FRONTEND APPLICATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="250" y="180" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="adminpanel" value="ADMIN PANEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="250" y="400" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="backend" value="BACKEND API/SERVICE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="500" y="280" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="database" value="DATABASE" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="750" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud" value="CLOUD SERVER" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="500" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" value="Product/Sales Data" style="endArrow=classic;html=1;" parent="1" source="vendor" target="frontend" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" value="API Requests" style="endArrow=classic;html=1;" parent="1" source="frontend" target="backend" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" value="Data" style="endArrow=classic;html=1;" parent="1" source="backend" target="database" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" value="Management Actions" style="endArrow=classic;html=1;" parent="1" source="admin" target="adminpanel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" value="API Requests" style="endArrow=classic;html=1;" parent="1" source="adminpanel" target="backend" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" value="Sync Data" style="endArrow=classic;html=1;" parent="1" source="backend" target="cloud" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" value="Synced Info" style="endArrow=classic;html=1;dashed=1;" parent="1" source="cloud" target="backend" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
